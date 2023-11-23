@@ -1,0 +1,65 @@
+/* ====== Fonts ====== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* ====== Common Design Start ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+/* ====== Common Design End ====== */
+
+/* ====== Header Design Start ====== */
+#header {
+  padding: 16px 0;
+}
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_title {
+  color: #222;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: auto;
+  font-family: "Poppins", sans-serif;
+}
+.logo_text {
+  color: #fe4f70;
+}
+.social_btn {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.social_btn i {
+  height: 25px;
+  width: 25px;
+  color: #222;
+  transition: color linear 0.3s;
+}
+.social_btn i:hover {
+  color: #fe4f70;
+}
+/* ====== Header Design End ====== */
